@@ -7,7 +7,7 @@
     loading = true
 
     try {
-      const res = await fetch('http://localhost:8787/command', {
+      const res = await fetch('https://fastspend-api.pearitono.workers.dev/command', {
         method: 'POST',
         body: JSON.stringify({command}),
       })
